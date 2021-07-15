@@ -1,6 +1,10 @@
 $(function () {
     $("#test").click(function () {
-        $("#me").css("visibility", "visible");
-        $("#me").html("Hello World");
+	$.getJSON('/kmeans/',
+                function(data) {
+              $("#me").css("visibility", "visible");
+        	$("#me").html(data);
+        });
+        
     })
 })

@@ -1,6 +1,6 @@
-flask
 sklearn
 numpy
 pandas
+flask
 flask_cors
 pyod

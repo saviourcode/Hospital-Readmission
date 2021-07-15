@@ -1,0 +1,6 @@
+flask
+sklearn
+numpy
+pandas
+flask_cors
+pyod

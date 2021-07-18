@@ -53,7 +53,7 @@ def default():
 
 if __name__ == "__main__":
     app.config["TEMPLATES_AUTO_RELOAD"] = True;
-    app.run(debug=False)
+    app.run(port=8080,debug=False)
 
 
 # In[ ]:

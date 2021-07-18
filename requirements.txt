@@ -4,4 +4,3 @@ pandas
 flask
 flask_cors
 pyod
-pickle

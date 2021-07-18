@@ -5,7 +5,7 @@
 
 
 import json
-import os
+import os from pml
 from flask import Flask, render_template
 from flask import render_template_string
 from flask import Flask, jsonify, request
@@ -52,8 +52,9 @@ def default():
 
 
 if __name__ == "__main__":
+    port = int(os.environ.get('PORT', 5000))
     app.config["TEMPLATES_AUTO_RELOAD"] = True;
-    app.run(port=8080,debug=False)
+    app.run(host='0.0.0.0', port=port)
 
 
 # In[ ]:

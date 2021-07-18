@@ -5,7 +5,7 @@
 
 
 import json
-import os from pml
+import os
 from flask import Flask, render_template
 from flask import render_template_string
 from flask import Flask, jsonify, request

@@ -1,1 +1,1 @@
-web:python Flask_New.py
+web: python Flask_New.py
